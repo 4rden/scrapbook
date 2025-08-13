@@ -1,0 +1,69 @@
+/* Element Styles */
+
+* {
+    margin: 0;
+}
+
+html {
+    font-family: Inter, sans-serif;
+}
+
+h1 { 
+    font-size: 3.5em;
+    font-weight: bolder;
+}
+
+h2 { 
+    font-size: 1.875em ;
+}
+
+
+p { 
+    font-size: 0.875em;
+}
+
+/* Class Styles */ 
+
+/* center text */
+.tcenter {
+    text-align:center
+}
+
+/* creates container */
+.container {
+    display: flex;
+    flex-direction: var(--direction,column);
+    justify-content: center;
+    align-items: center;
+    height: var(--height,100%);
+    gap: var(--gap,0px)
+}
+
+/* Adds cursive font  */
+.cursive { 
+    font-family: "Bradley Hand";
+    color: var(--color,#fff);
+}
+
+/* Basic text shadow */
+.shadow { 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+}
+
+/* hero heading size */
+.bigf {
+    font-size: 8em;
+    line-height: .7
+}
+
+.underline {
+    display: inline-block;
+    border-bottom: 2px solid currentColor;
+    padding-bottom: 1px;
+}
+/* ID styles */
+
+#hero {
+    background-image: url(./images/bg-hero.png);
+    height: fit-content;
+}
