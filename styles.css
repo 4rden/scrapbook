@@ -1,4 +1,4 @@
-/* Element Styles */
+/* --------- Element Styles */
 
 * {
     margin: 0;
@@ -22,7 +22,7 @@ p {
     font-size: 0.875em;
 }
 
-/* Class Styles */ 
+/* ---------- Class Styles */ 
 
 /* center text */
 .tcenter {
@@ -56,13 +56,16 @@ p {
     line-height: .7
 }
 
+/* Text underline */
 .underline {
     display: inline-block;
     border-bottom: 2px solid currentColor;
     padding-bottom: 1px;
 }
-/* ID styles */
 
+/* --------- ID styles */
+
+/* background scrap book image */
 #hero {
     background-image: url(./images/bg-hero.png);
     height: fit-content;
